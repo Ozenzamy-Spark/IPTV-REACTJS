@@ -37,15 +37,15 @@
 }
 
 .Navbar > .itemslist > .items > a:nth-child(1):hover {
-    border-bottom: 1px solid red;
+    color: red;
 } 
 
 .Navbar > .itemslist > .items > a:nth-child(2):hover {
-    border-bottom: 1px solid red;
+    color: red;
 } 
 
 .Navbar > .itemslist > .items > a:nth-child(3):hover {
-    border-bottom: 1px solid red;
+    color: red;
 } 
 
 .Navbar > .itemslist > .items > a:last-child {
