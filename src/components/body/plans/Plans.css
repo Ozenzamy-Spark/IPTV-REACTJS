@@ -1,0 +1,32 @@
+.Plans {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.Plans > .planstitle {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.Plans > .planstitle > h1{
+    font-size: 1.8em;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+
+.Plans > .planstitle > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    color: red;
+}

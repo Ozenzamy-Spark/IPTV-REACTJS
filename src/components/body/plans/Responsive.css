@@ -1,0 +1,14 @@
+@media (max-width: 575.98px) { 
+
+   .Plans > .planstitle > h1{
+       font-size: 1.5em;
+       text-align: center;
+       padding: 5px;
+   }
+
+   .Plans > .planstitle > h3 {
+       text-align: center;
+       font-size: 1.2em;
+   }
+
+}
