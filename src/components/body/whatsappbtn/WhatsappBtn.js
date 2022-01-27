@@ -1,4 +1,5 @@
 import './WhatsappBtn.css';
+import './Responsive.css';
 
 function WhatsappBtn() {
     return (
