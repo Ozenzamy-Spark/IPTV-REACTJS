@@ -5,13 +5,13 @@ import './Responsive.css';
 function Navbar() {
     return (
         <nav className='Navbar'>
-            <a href='#'>LOGO</a>
+            <a href='#test'>LOGO</a>
             <div className='itemslist'>
                 <div className='items'>
-                    <a>Accueil</a>
-                    <a>Abonnements</a>
-                    <a>Chaines</a>
-                    <a>Contact</a>
+                    <a href="#test">Accueil</a>
+                    <a href="#test">Abonnements</a>
+                    <a href="#test">Chaines</a>
+                    <a href="#test">Contact</a>
                 </div>
                 <div className='mobile-menu'>
                     <i className="fas fa-bars"></i>
