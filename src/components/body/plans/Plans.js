@@ -41,7 +41,7 @@ function Plans() {
                             <h3>25.00 € | 6 Mois</h3>
                         </div>
                         <div className='contact'>
-                            <a href='#'>Contactez nous</a>
+                            <a href='#test'>Contactez nous</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Plans() {
                             <h3>40.00 € | 12 Mois</h3>
                         </div>
                         <div className='contact'>
-                            <a href='#'>Contactez nous</a>
+                            <a href='#test'>Contactez nous</a>
                         </div>
                     </div>
                 </div>
