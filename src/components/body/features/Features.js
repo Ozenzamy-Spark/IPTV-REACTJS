@@ -27,7 +27,7 @@ function Features() {
                 </div>
             </div>
             <div className='two'>
-                <h1><i className="fas fa-exclamation-circle exclamation"></i> &nbsp; Pour plus d'informations veuillez nous contacter sur <span>+212.00.00.00.00</span></h1>
+                <h1><i className="fas fa-exclamation-circle exclamation"></i> &nbsp; Pour plus d'informations veuillez nous contacter sur <span>+212-640-207557</span></h1>
             </div>
         </section>
     );
