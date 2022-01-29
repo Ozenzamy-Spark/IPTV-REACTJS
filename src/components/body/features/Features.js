@@ -8,7 +8,7 @@ function Features() {
         <section className='Features'>
             <div className='one'>
                 <div className='livetv'>
-                    <img src={Path + "/assets/img/livetv.jpg"} alt='Live TV'/>
+                    <img src={Path + "/assets/img/livetv.jpeg"} alt='Live TV'/>
                     <h2>Live TV</h2>
                     <p>Des milliers de chaînes de télévision en direct dans le monde entier Premium HD et FHD Sports.</p>
                     <a href="#test" className='readmorebtn'>Lire la suite...</a>
