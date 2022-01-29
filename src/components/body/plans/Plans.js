@@ -13,7 +13,7 @@ function Plans() {
                 <div className='card'>
                     <div className='head'>
                         <h4>ABONNEMENT</h4>
-                        <h2>IPTV GOLD</h2>
+                        <h2>IPTV SILVER</h2>
                         <div className='quality'>
                             <img src={process.env.PUBLIC_URL + 'assets/img/4k.png'} alt="4K TV"/>
                             <img src={process.env.PUBLIC_URL + 'assets/img/full-hd.png'} alt="FULL HD"/>
