@@ -1,5 +1,5 @@
 import './Channels.css';
-
+import './Responsive.css';
 
 
 function Channels() {

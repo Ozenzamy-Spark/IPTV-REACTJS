@@ -1,0 +1,6 @@
+@media (max-width: 575.98px) { 
+    .Channels > center > img {
+        width: 460px;
+        height: 360px;
+    }
+}
