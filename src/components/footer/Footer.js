@@ -5,7 +5,7 @@ function Footer() {
     return(
         <section className='Footer'>
             <div>
-                <center><span>LOGO 2022 CREATED BY <a href="#test">SPARK AGENCY</a></span></center>
+                <center><span>4kplanete 2022 CREATED BY <a href="#test">SPARK AGENCY</a></span></center>
             </div>
         </section>
     );
