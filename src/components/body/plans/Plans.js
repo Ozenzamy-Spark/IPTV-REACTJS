@@ -4,7 +4,7 @@ import './Responsive.css';
 
 function Plans() {
     return(
-        <section className='Plans'>
+        <section className='Plans' id='plans'>
             <div className='planstitle'>
                 <h1>MEILLEUR ABONNEMENT IPTV &nbsp; <ion-icon name="tv-outline"></ion-icon></h1>
                 <h3>Choisissez votre forfait avec Plans de tarification flexibles</h3>

@@ -3,19 +3,32 @@ import './Responsive.css';
 
 
 function Navbar() {
+
+    function changeVisibility() {
+        var classes = document.getElementById('itemslist').classList;
+        if (classes.contains('no-active')) {
+            document.getElementById('itemslist').classList.remove('no-active');
+            document.getElementById('itemslist').classList.add('active');
+        }
+        else {
+            document.getElementById('itemslist').classList.remove('active');
+            document.getElementById('itemslist').classList.add('no-active');
+        }
+    }
+
     return (
         <nav className='Navbar'>
             <a href='#test'>4k<sub><small>planete</small></sub></a>
-            <div className='itemslist'>
-                <div className='items'>
-                    <a href="#test">Accueil</a>
-                    <a href="#test">Abonnements</a>
-                    <a href="#test">Chaines</a>
-                    <a href="#test">Contact</a>
+            <div className='itemslist no-active' id='itemslist'>
+                <div className='items' id='items'>
+                    <a href="#home">Accueil</a>
+                    <a href="#plans">Abonnements</a>
+                    <a href="#channels">Chaines</a>
+                    <a href="https://wa.me/+212640207557">Contact &nbsp; <i class="fab fa-whatsapp-square"></i></a>
                 </div>
-                <div className='mobile-menu'>
+            </div>
+            <div className='mobile-menu' onClick={changeVisibility}>
                     <i className="fas fa-bars"></i>
-                </div>
             </div>
         </nav>
     );

@@ -1,4 +1,14 @@
 @media (max-width: 575.98px) { 
+
+    .Navbar > .no-active {
+        display: none;
+    }
+
+    .Navbar > .active {
+        display: flex;
+        z-index: 1000;
+    }
+
     .Navbar > .itemslist > .items {
         position: absolute;
         flex-direction: column;
@@ -10,7 +20,7 @@
         padding-bottom: 5px;
     }
 
-    .Navbar > .itemslist > .mobile-menu {
+    .Navbar > .mobile-menu {
         display: inline;
     }
 }

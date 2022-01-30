@@ -17,6 +17,7 @@
 .Navbar > .itemslist {
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 
 .Navbar > .itemslist > .items {
@@ -59,7 +60,7 @@
     background-color: rgb(201, 20, 20);
 }
 
-.Navbar > .itemslist > .mobile-menu {
+.Navbar > .mobile-menu {
     color: whitesmoke;
     font-size: 1.2em;
     font-weight: 700;

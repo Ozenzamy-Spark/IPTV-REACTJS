@@ -1,0 +1,14 @@
+
+
+.Channels {
+    width: 90%;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Channels > center > img {
+    width: 860px;
+    height: 760px;
+}
