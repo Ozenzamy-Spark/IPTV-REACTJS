@@ -5,7 +5,7 @@ import './Responsive.css';
 function Navbar() {
     return (
         <nav className='Navbar'>
-            <a href='#test'>LOGO</a>
+            <a href='#test'>4k<sub><small>planete</small></sub></a>
             <div className='itemslist'>
                 <div className='items'>
                     <a href="#test">Accueil</a>
