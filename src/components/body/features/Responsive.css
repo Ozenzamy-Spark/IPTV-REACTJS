@@ -5,6 +5,7 @@
 
     .Features > .one > div > img {
         align-self: center;
+        width: 100%;
     }
 
     .readmorebtn {
