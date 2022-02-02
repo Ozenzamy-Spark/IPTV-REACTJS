@@ -4,6 +4,7 @@ import './Responsive.css';
 
 function Channels() {
     return (
+        <div>
         <section className='Channels' id="channels">
             <h1>
                 IPTV est doté de plus de 138 bouquets <br />
@@ -21,6 +22,10 @@ function Channels() {
                 <div><img src={process.env.PUBLIC_URL + '/assets/img/canalafrique.png'} alt='canalafrique'/></div>
             </div>
         </section>
+        <div className='watchingTV'>
+                <img src={process.env.PUBLIC_URL + '/assets/img/watchTV.jpg'} alt='Watch TV'/>
+        </div>
+        </div>
     );
 }
 
