@@ -3,4 +3,13 @@
         width: 400px;
         height: 300px;
     }
+
+    .channelsList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .channelsList > div {
+        padding: 30px;
+    }
 }
