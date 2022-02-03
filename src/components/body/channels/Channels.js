@@ -22,6 +22,18 @@ function Channels() {
                 <div><img src={process.env.PUBLIC_URL + '/assets/img/canaldigital.png'} alt='canaldigital'/></div>
                 <div><img src={process.env.PUBLIC_URL + '/assets/img/canalafrique.png'} alt='canalafrique'/></div>
         </div>
+        <br />
+        <div className="vod" id="vod">
+                <div className='vodCard'>
+                    <img src={process.env.PUBLIC_URL + '/assets/img/netflix.jpeg'} alt='Netflix'/>
+                </div>
+                <div className='vodCard'>
+                    <img src={process.env.PUBLIC_URL + '/assets/img/prime.jpeg'} alt='Prime'/>
+                </div>
+                <div className='vodCard'>
+                    <img src={process.env.PUBLIC_URL + '/assets/img/shahid.jpeg'} alt='Shahid'/>
+                </div>
+        </div>
         <div className='watchingTV'>
                 <img src={process.env.PUBLIC_URL + '/assets/img/watchTV.jpg'} alt='Watch TV'/>
         </div>

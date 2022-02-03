@@ -45,3 +45,21 @@
 .watchingTV > img {
     width: 100%;
 }
+
+.vod {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vod > .vodCard {
+    width: 25%;
+    box-sizing: border-box;
+    box-shadow: 2px 15px 20px black;
+    border: none;
+    padding: 0px;
+}
+
+.vod > .vodCard > img {
+    width: 100%;
+}

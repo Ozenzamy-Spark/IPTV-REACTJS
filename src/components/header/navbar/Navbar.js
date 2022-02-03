@@ -24,6 +24,7 @@ function Navbar() {
                     <a href="#home">Accueil</a>
                     <a href="#plans">Abonnements</a>
                     <a href="#channels">Chaines</a>
+                    <a href="#vod">VOD</a>
                     <a href="https://wa.me/+212640207557">Contact &nbsp; <i class="fab fa-whatsapp-square"></i></a>
                 </div>
             </div>
