@@ -12,5 +12,9 @@
     .channelsList > div {
         padding: 30px;
     }
+
+    .vodCard {
+        width: 32%;
+    }
     
 }
