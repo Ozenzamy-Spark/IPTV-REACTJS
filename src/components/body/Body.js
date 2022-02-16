@@ -11,7 +11,7 @@ function Body() {
         <div className='Body'>
             <Features />
             <div className='watchtvtwo'>
-                <img src={process.env.PUBLIC_URL + '/assets/img/watchTV2.jpeg'}/>
+                <img src={process.env.PUBLIC_URL + '/assets/img/watchTV2.jpeg'} alt="WatchTwo"/>
             </div>
             <Plans />
             <Channels />
